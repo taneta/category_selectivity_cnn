@@ -8,6 +8,7 @@ This project helps to understand a CNN's properties:
 
 VGG16 from `keras.applications` is used as a CNN model.
 
+![CNN Filters category selectivity](https://github.com/taneta/category_selectivity_cnn/blob/master/selectivity.gif)
 
 ### Prerequisites
 
