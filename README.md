@@ -8,7 +8,6 @@ This project helps to understand a CNN's properties:
 
 VGG16 from `keras.applications` is used as a CNN model.
 
-![CNN Filters category selectivity](https://github.com/taneta/category_selectivity_cnn/blob/master/selectivity.gif)
 
 ### Prerequisites
 
@@ -30,9 +29,9 @@ ipywidgets
 
 To measure neuron's preferences towards a category, I propose to normalize the neurons responses first and, then, to measure a proportion of activativations related the category:
 
-$$NormalizedActivation = {Activation - min(Activation) \over max(Activation) - min(Activation) + \epsilon}$$
+![equation](http://latex.codecogs.com/gif.latex?NormalizedActivation%20%3D%20%5Cfrac%7BActivation%20-%20min%28Activation%29%7D%7Bmax%28Activation%29%20-%20min%28Activation%29%20+%20%5Cepsilon%7D)
 
-$$CategorySelectivity = {\sum(NormalizedActivation_{category})\over N_{category}$$
+![equation](http://latex.codecogs.com/gif.latex?CategorySelectivity&space;=&space;\frac{\sum(NormalizedActivation_{category})}&space;{N_{category}})
 
 
 ## Authors
