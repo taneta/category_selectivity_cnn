@@ -18,6 +18,21 @@ keras
 plotly
 ipywidgets
 ```
+### How to:
+
+1. Put your images into a folder, containing subfolders for every category you are interested in.
+2. Lauch `category_selectivity.ipynb` to get the activations and measure category selectivity for each filter from chosen layers.
+3. Go to `plot_filter_selectivity.ipynb` to visualize the results.
+
+
+<b><i>Category Selectivity</i></b>
+
+To measure neuron's preferences towards a category, I propose to normalize the neurons responses first and, then, to measure a proportion of activativations related the category:
+
+$$NormalizedActivation = {Activation - min(Activation) \over max(Activation) - min(Activation) + \epsilon}$$
+
+$$CategorySelectivity = {\sum(NormalizedActivation_{category})\over N_{category}$$
+
 
 ## Authors
 
