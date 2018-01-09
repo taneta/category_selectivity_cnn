@@ -1,6 +1,10 @@
 # CNN filters category selectivity
 
+Run notebooks online: 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/taneta/category_selectivity_cnn/master)
+
 This project helps to understand a CNN's properties: 
+
 
 - which layer contains filters sensitive to a certain category
 - what kind of image categories activate particular filter
