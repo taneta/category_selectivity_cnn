@@ -1,8 +1,9 @@
 # Test folder
+
 images/
 activations/
-
-
+selectivity/
+plot_filter_selectivity_online.ipynb
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
