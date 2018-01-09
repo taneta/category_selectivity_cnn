@@ -1,7 +1,5 @@
-#
-tensorflow
-#
-keras
+# tensorflow
+# keras
 numpy
 pandas
 ipywidgets
